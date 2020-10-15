@@ -29,4 +29,3 @@
 
 请求到达网关，先通过断言判断是否符合路由规则，如果符合路由规则就通过一系列的过滤器路由到指定的路由。
 
-![示意图](https://docs.spring.io/spring-cloud-gateway/docs/2.2.5.RELEASE/reference/html/images/spring_cloud_gateway_diagram.png)
