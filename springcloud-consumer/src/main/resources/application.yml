@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: nacos-consumer
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/consumer?serverTimezone=GMT&useUnicode=true&characterEncoding=UTF-8
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
